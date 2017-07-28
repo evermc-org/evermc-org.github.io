@@ -1,0 +1,18 @@
+.page-container.horizontal-menu header.navbar .navbar-nav>li>a i{
+	margin-right: 5px;
+}
+
+.page-container.horizontal-menu header.navbar .navbar-brand{
+	padding: 10px 10px;
+}
+
+@media(max-width: 767px){
+	.page-body .page-container.horizontal-menu header.navbar ul.nav>li {
+		display: block; 
+	}
+	.page-body .page-container.horizontal-menu header.navbar ul.nav{
+		position: initial;
+		margin-right: 20px;
+	}
+
+}

@@ -1,0 +1,77 @@
+/* ===== START YOUR CUSTOMIZATIONS HERE ===== */
+body, h1, h2, h3, h4, h5, p{
+	font-family: "Microsoft YaHei";
+}
+.strong{
+	font-weight: bold;
+}
+.btn{
+	font-size:19px;
+}
+#parallax {
+  background: url('../images/sliders/1.jpg') center center no-repeat;
+}
+#hero .lead{
+	color: #fff;
+	text-shadow: 1px 1px 8px #000;
+	font-weight: bold;
+}
+
+#features .text-center p{
+	font-size: 18px;
+}
+#pricing .pricing-box .pricing-price{
+	font-size: 35px;
+}
+.open > .dropdown-menu{
+	margin-top: 10px !important;
+}
+#newsletter {
+  background-color: #E74C3C;
+}
+.notice{
+	background-color: #e74c3c;
+	line-height: 1.227;
+	border-radius: 6px;
+	font-size: 19px;
+	font-weight: 300;
+	padding: 13px 20px;
+	color: #ffffff;
+	border: none;
+}
+.quote-icon {
+	background: #fff;
+	border-radius: 50%;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+#twitter img {
+	padding-bottom: 0px;
+}
+@media (max-width: 767px) {
+	#hero {
+		background: url('../images/sliders/1.jpg') center center no-repeat;
+	}
+}
+#hero .intro {
+	padding-top: 200px;
+}
+#header .navbar .logo-img {
+	height: 70px;
+}
+.navbar .nav {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+@media (max-width: 767px){
+	#hero .intro {
+		padding: 0;
+	}
+}
+.navbar .btn-navbar {
+	margin-top: 38px;
+	margin-bottom: 38px;
+}
+.pricing-cta .btn{
+    text-transform: none;
+}
